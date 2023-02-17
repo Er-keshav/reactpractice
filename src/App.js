@@ -3,7 +3,6 @@ import Employee from './components/Employee';
 import {useState} from 'react';
 
 function App() {
-  // console.log('we are about to list the employee');
   const [role, setRole]= useState('dev');
   const showEmployee= true;
   return (
